@@ -1,0 +1,9 @@
+function pickRandom(n1, n2) {
+var a = n1;
+var b = 0;
+while (b < n2) {
+a = a + Math.random();
+b++
+}
+return a;
+}
